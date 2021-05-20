@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
 /*Contenido*/
 * {
@@ -489,5 +490,40 @@ header {
       border-radius: 10px;
       margin-top: 15px;
       margin-left: 230px; }
+
+.container__general--reseñas {
+  width: 100%;
+  height: 1300px;
+  background-color: #000; }
+  .container__general--reseñas .container__review {
+    width: 100%;
+    height: 1299px;
+    background-color: #000;
+    padding-top: 150px;
+    padding-left: 400px; }
+    .container__general--reseñas .container__review .review__titulo {
+      font-size: 60px;
+      color: white;
+      font-family: "Roboto Mono", monospace;
+      padding-bottom: 5px; }
+    .container__general--reseñas .container__review--lista {
+      display: flex;
+      flex-direction: column; }
+      .container__general--reseñas .container__review--lista .container__review--item {
+        border-top: 2px solid #FB7E22;
+        width: 45%;
+        color: white;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px; }
+        .container__general--reseñas .container__review--lista .container__review--item p {
+          font-family: cursive;
+          color: white; }
+        .container__general--reseñas .container__review--lista .container__review--item .container__review--alter {
+          display: flex;
+          flex-direction: row; }
+          .container__general--reseñas .container__review--lista .container__review--item .container__review--alter .review--subitem {
+            list-style-type: none;
+            padding: 4px; }
 
 /*RESPONSIVE DESING*/
