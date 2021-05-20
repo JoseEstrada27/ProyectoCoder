@@ -149,8 +149,7 @@ header {
   visibility: hidden;
   text-align: center; }
   .container__menu .container__galeria--menu .container__galeria--parrafo h3 {
-    /*color: #FD5680;*/
-    color: yellow;
+    color: #FD5680;
     display: none; }
 
 /*HOVERS DE GALERIA*/
