@@ -503,7 +503,7 @@ header {
     padding-left: 400px; }
     .container__general--reseñas .container__review .review__titulo {
       font-size: 60px;
-      color: white;
+      color: #FD5680;
       font-family: "Roboto Mono", monospace;
       padding-bottom: 5px; }
     .container__general--reseñas .container__review--lista {
